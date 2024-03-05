@@ -120,9 +120,11 @@ export const Stylesheet = {
     input1: {
         width: { xs: "90%", lg: "100%" },
         fontSize: "15px",
-        '&::placeholder': {
-            color: "red"
-        }
+        borderBottom: "1px solid",
+        "&:hover": {
+            borderBottom: "1.5px solid",
+        },
+
     },
     input: {
         p: "15px 15px",
@@ -131,7 +133,17 @@ export const Stylesheet = {
         fontSize: "15px",
         '&::placeholder': {
             fontSize: "12px",
-
+        }
+    },
+    roleInput: {
+        pt: 1, width: {
+            xs: "90%", lg: "100%",
+            "& .MuiSelect-standard MuiInputBase-input ": {
+                opacity: "0.3",
+                color: 'red'
+            },
+            // MuiSelect-select MuiSelect-standard MuiInputBase-input MuiInput-input css-1ldywpb-MuiSelect-select-MuiInputBase-input-MuiInput-input
+            // MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl  css-1lal16b-MuiInputBase-root-MuiInput-root-MuiSelect-root
         }
     },
 

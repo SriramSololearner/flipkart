@@ -23,9 +23,9 @@ export const Styles = {
         "&:hover": {
             boxShadow: "1px 5px 10px 0px #ccc",
         }
+
     },
     imgContainer: {
-        alignSelf: "center",
         width: "200px",
         height: "200px",
         background: "cover",

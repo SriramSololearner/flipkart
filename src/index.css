@@ -12,3 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.MuiModal-root .MuiList-root {
+  background-color: rgb(249, 244, 242);
+  border: solid 1px black;
+  box-shadow: none;
+  border-radius: 0;
+}
